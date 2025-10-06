@@ -51,7 +51,7 @@ export default async function main() {
     const response = await fetch(uploadUrl, {
       method: "POST",
       headers: {
-        "Secret": apiKey,
+        Secret: apiKey,
         "User-Agent": "Raycast-Upload-Image",
       },
       body: formData,
